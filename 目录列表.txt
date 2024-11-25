@@ -1,0 +1,109 @@
+文件夹 PATH 列表
+卷序列号为 7F6E8BBE 3CD2:D088
+C:.
+│  javaapk.com文件列表生成工具.bat
+│  MI_20140717_171728.png
+│  更多源码打包下载.url
+│  本源码使用帮助.txt
+│  目录列表.txt
+│  
+└─ComAssistant
+    │  .classpath
+    │  .project
+    │  AndroidManifest.xml
+    │  proguard.cfg
+    │  project.properties
+    │  
+    ├─.settings
+    │      org.eclipse.jdt.core.prefs
+    │      
+    ├─assets
+    │              
+    ├─gen
+    │  └─com
+    │      └─bjw
+    │          └─ComAssistant
+    │                  BuildConfig.java
+    │                  R.java
+    │                  
+    ├─jni
+    │      Android.mk
+    │      Application.mk
+    │      gen_SerialPort_h.sh
+    │      SerialPort.c
+    │      SerialPort.h
+    │      
+    ├─libs
+    │  ├─armeabi
+    │  │      libserial_port.so
+    │  │      
+    │  ├─armeabi-v7a
+    │  │      libserial_port.so
+    │  │      
+    │  └─x86
+    │          libserial_port.so
+    │          
+    ├─obj
+    │  └─local
+    │      ├─armeabi
+    │      │  │  libserial_port.so
+    │      │  │  
+    │      │  └─objs
+    │      │      └─serial_port
+    │      │              SerialPort.o
+    │      │              SerialPort.o.d
+    │      │              
+    │      ├─armeabi-v7a
+    │      │  │  libserial_port.so
+    │      │  │  
+    │      │  └─objs
+    │      │      └─serial_port
+    │      │              SerialPort.o
+    │      │              SerialPort.o.d
+    │      │              
+    │      └─x86
+    │          │  libserial_port.so
+    │          │  
+    │          └─objs
+    │              └─serial_port
+    │                      SerialPort.o
+    │                      SerialPort.o.d
+    │                      
+    ├─res
+    │  ├─drawable-hdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-ldpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-mdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-xhdpi
+    │  ├─layout
+    │  ├─layout-land
+    │  │      main.xml
+    │  │      
+    │  ├─layout-port
+    │  │      main.xml
+    │  │      
+    │  └─values
+    │          baudrates.xml
+    │          strings.xml
+    │          
+    └─src
+        ├─android_serialport_api
+        │      SerialPort.java
+        │      SerialPortFinder.java
+        │      
+        └─com
+            └─bjw
+                ├─bean
+                │      AssistBean.java
+                │      ComBean.java
+                │      
+                └─ComAssistant
+                        ComAssistantActivity.java
+                        MyFunc.java
+                        SerialHelper.java
+                        
