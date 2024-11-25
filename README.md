@@ -18,6 +18,9 @@
 3. **发送数据**：使用提供的API发送十六进制或文本数据。
 4. **接收数据**：根据需要处理接收到的数据，例如解析卡片信息。
 
+
+![ComAssistant](https://github.com/ligbyte/ComAssistant/blob/main/images/ComAssistant.png)
+
 ## 注意事项
 
 - 请确保Android设备支持串口通信，并已正确连接外设。
